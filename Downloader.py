@@ -45,7 +45,7 @@ def ya():
 		vid=you.streams.first()
 		vid.download("/sdcard")
 		print("\n")
-		print(green+bold+"COMPLETE DOWNLOAD AT: "+red+bold+time.strftime("%H:%M:%S"))
+		print(green+bold+"[-] COMPLETE DOWNLOAD AT: "+red+bold+time.strftime("%H:%M:%S"))
 		print(yellow+bold)
 		os.system("figlet Complete...")
 		print("\n")
